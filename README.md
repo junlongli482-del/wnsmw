@@ -39,4 +39,4 @@
 
 备份不包含 GitHub 凭据、私人签名密钥、模拟器可变磁盘或可重新下载的 SDK 大型安装缓存；保留了研究所需原始输入、模型、还原产物和 Python 二进制依赖。已安装工具的重建方法见恢复说明。
 
-完整数据快照共 16,656 个文件，原始体积约 10.49 GB，压缩后约 4.76 GB，共 6 个分卷。发布核验记录见 `backup/local-restore-verification.json` 和 `backup/remote-verification.json`。
+完整数据快照共 16,665 个文件，原始体积约 10.54 GB，压缩后约 4.77 GB，共 7 个分卷。发布核验记录见 `backup/local-restore-verification.json`、`backup/supplement-verification.json` 和 `backup/remote-verification.json`。

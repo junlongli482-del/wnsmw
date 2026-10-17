@@ -6,6 +6,8 @@ research-state.zip.*：原 APK、原库、提取模型、壳恢复检查点、�
 
 research-environment.zip.*：Python 3.12 二进制依赖、已校验 JADX JAR、Frida 组件、REA 源码 Git bundle 及 npm 锁文件。
 
+research-indexes.zip.*：早期 REA 及 APK 顶层索引补充证据。
+
 snapshot-manifest.json：完整文件和分卷的 SHA-256 清单。单独的研究 APK 和效果核对 HTML 为便利下载副本，也包含在完整研究状态包内。恢复 HTML 下载后用浏览器打开；APK 是研究适配器，不是原 App UI。
 
 已验证：16 个业务 DEX 原 SHA-1 匹配；原 JNI 普通框、80 点曲线、曲线裁切和新旧增强执行；网关扫描结果与 Android 直接输出逐字节一致；曲线网关 10 项检查及 Node 页面回归通过。

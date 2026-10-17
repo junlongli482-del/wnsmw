@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "files_verified": 16656,
+  "raw_bytes": 10485735241,
+  "method": "Fresh directory; real restore script reassembled all volumes, extracted both ZIPs, verified every file SHA-256; temporary test data removed afterwards."
+}

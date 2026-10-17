@@ -19,6 +19,7 @@ GROUPS = {
         '.work/rea-runtime/package.json', '.work/rea-runtime/pnpm-lock.yaml',
         'backup/assets/rea-source.bundle'],
 }
+GROUPS['research-indexes.zip'] = [p.relative_to(ROOT).as_posix() for pattern in ('camscanner-*.json','camscanner-*.txt','rea-*.json') for p in sorted((ROOT/'output').glob(pattern))]
 SKIP = {'.keystore', '.jks', '.pem', '.p12', '.pfx', '.pyc'}
 
 def digest(path):

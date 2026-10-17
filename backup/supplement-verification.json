@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "files_verified": 9,
+  "archive": "research-indexes.zip",
+  "sha256": "3285f0c3dfe6ff2f5a823b6419133ae18c49329f472b5c597c87d0c3a18552df",
+  "method": "ZIP CRC and each decoded member SHA-256 matched original top-level research index bytes."
+}

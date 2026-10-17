@@ -99937,6 +99937,60 @@
       "bytes": 135663104,
       "sha256": "32c73230bdfd4b9a8f1f1871ef616001e486269919f18a111a195854352057dc",
       "archive": "research-environment.zip"
+    },
+    {
+      "path": "output/camscanner-model-candidates.json",
+      "bytes": 7780,
+      "sha256": "52667bd6b871fc0c2792eace6ca0c8023f411677af6d0db43729c4aef709a76a",
+      "archive": "research-indexes.zip"
+    },
+    {
+      "path": "output/camscanner-native-candidates.json",
+      "bytes": 65439,
+      "sha256": "f99e4a32d9f6287de6b38f51a9ec48c3455595c2df6c4533eabe956927dd0645",
+      "archive": "research-indexes.zip"
+    },
+    {
+      "path": "output/camscanner-package-files.json",
+      "bytes": 6738,
+      "sha256": "922a95568bcaa6e2e99aacfdc5dae9870ead86854a0a66fc251e7670e618df39",
+      "archive": "research-indexes.zip"
+    },
+    {
+      "path": "output/camscanner-core-strings.txt",
+      "bytes": 22704,
+      "sha256": "216d1d3f7fee9eb8b98d6f0a83f7d6a45631f0a5e79980e1e8bf77d0daa6a455",
+      "archive": "research-indexes.zip"
+    },
+    {
+      "path": "output/rea-analysis-check.json",
+      "bytes": 57699684,
+      "sha256": "c9e605c9c82cd6338a4033dc7728e7edfa7b184b85c99868a871ddd1cfd40962",
+      "archive": "research-indexes.zip"
+    },
+    {
+      "path": "output/rea-codex-check.json",
+      "bytes": 8813,
+      "sha256": "bb880ae2d6879ec3c46c5364446ed39d9bcba30923ca80aa7f346f51f4c2001c",
+      "archive": "research-indexes.zip"
+    },
+    {
+      "path": "output/rea-mcp-check.json",
+      "bytes": 1691,
+      "sha256": "cb2b8e2f21e69a11f58f96448a4454be8d40ca34c5c08a0a74ec5723a686efb6",
+      "archive": "research-indexes.zip"
+    },
+    {
+      "path": "output/rea-setup-plan.json",
+      "bytes": 11041,
+      "sha256": "6926f471106ac11a30156839c5906f83b29b25d9687f2b4f76dd07c8ced6510d",
+      "archive": "research-indexes.zip"
+    },
+    {
+      "path": "output/rea-setup-result.json",
+      "bytes": 11305,
+      "sha256": "b3d9ccb230848785fb07badcd4c6ee1d6b497036bb846ff0a73b3e666d61b252",
+      "archive": "research-indexes.zip"
     }
   ],
   "archives": [
@@ -99949,6 +100003,11 @@
       "name": "research-environment.zip",
       "bytes": 250350162,
       "sha256": "1feb36e9131e79b6460eb51c81f81e50f1b60dd5c082ab2474462858615e7b76"
+    },
+    {
+      "name": "research-indexes.zip",
+      "bytes": 11994147,
+      "sha256": "3285f0c3dfe6ff2f5a823b6419133ae18c49329f472b5c597c87d0c3a18552df"
     }
   ],
   "parts": [
@@ -99987,6 +100046,12 @@
       "bytes": 250350162,
       "sha256": "1feb36e9131e79b6460eb51c81f81e50f1b60dd5c082ab2474462858615e7b76",
       "archive": "research-environment.zip"
+    },
+    {
+      "name": "research-indexes.zip.001",
+      "bytes": 11994147,
+      "sha256": "3285f0c3dfe6ff2f5a823b6419133ae18c49329f472b5c597c87d0c3a18552df",
+      "archive": "research-indexes.zip"
     }
   ],
   "excluded": "Private signing keys, credentials, unrelated teaching-platform documents, downloadable SDK/tool caches, Python bytecode."
