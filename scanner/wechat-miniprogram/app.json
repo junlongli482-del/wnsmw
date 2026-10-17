@@ -1,0 +1,6 @@
+{
+  "pages":["pages/scan/index"],
+  "window":{"navigationBarTitleText":"试卷扫描","navigationBarBackgroundColor":"#17252b","navigationBarTextStyle":"white","backgroundColor":"#17252b"},
+  "permission":{"scope.camera":{"desc":"用于识别试卷边框和拍摄试卷"}},
+  "style":"v2"
+}

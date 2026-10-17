@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-10-16T18:37:24.2995929Z",
+  "apk_sha256": "715f8fbf05fa9ac9bbeccc9b366f448091456439b86b4dbf29f1a7a57a245185",
+  "rea": {
+    "ghidra": "12.1.4",
+    "jadx": "0.7.1",
+    "android_package_evidence": "rea-final-android-package.json",
+    "cli_version": "6.5.0"
+  },
+  "regression": {
+    "curve_gateway": "passed 10/10",
+    "native_gateway": "passed",
+    "wechat_page": "passed",
+    "curve_native_points": 80,
+    "ordinary_scan_sha256": "e24995f9ba6f9d726118a73bd0466af3bb11b447d59a97ea72dec5a5e12e786c"
+  },
+  "delivery": "scanner-native-restored-research.apk",
+  "boundaries": [
+    "original native libraries unmodified",
+    "Android emulator and Node transport verified",
+    "physical phone and real WeChat client not verified",
+    "-12 super filter server algorithm not recovered"
+  ]
+}

@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.localresearch.stackprobe">
+  <uses-sdk android:minSdkVersion="29" android:targetSdkVersion="30" />
+  <application android:label="Factory JNI stack research" android:debuggable="true" android:appComponentFactory=".ProbeFactory" android:extractNativeLibs="true">
+    <activity android:name=".MainActivity" android:exported="true" />
+  </application>
+</manifest>

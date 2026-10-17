@@ -1,0 +1,8 @@
+{
+  "appid":"touristappid",
+  "projectname":"原库试卷扫描接入验证",
+  "compileType":"miniprogram",
+  "miniprogramRoot":"./",
+  "libVersion":"3.7.0",
+  "setting":{"es6":true,"urlCheck":false}
+}

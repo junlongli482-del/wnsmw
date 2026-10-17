@@ -1,0 +1,13 @@
+.work/
+output/
+rea/
+frida_binding.node
+__pycache__/
+*.py[cod]
+node_modules/
+*.keystore
+*.jks
+.env
+.env.*
+backup/assets/
+

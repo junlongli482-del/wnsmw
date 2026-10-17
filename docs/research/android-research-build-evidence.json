@@ -1,0 +1,37 @@
+{
+  "apk": "C:\\Users\\LJL\\Documents\\ChatGPT\\\u7ff0\u6797\u6559\u5b66\u5e73\u53f0\\.work\\android-research-build\\scanner-native-research.apk",
+  "apk_sha256": "715f8fbf05fa9ac9bbeccc9b366f448091456439b86b4dbf29f1a7a57a245185",
+  "original_libraries": [
+    {
+      "name": "libpagescanner.so",
+      "sha256": "2e25ab9f7c0accfd848ff095c5914a114063e8e840a052171cb0873bee285744"
+    },
+    {
+      "name": "libMNN.so",
+      "sha256": "5d8a38a9438885c3704360818ce8b27bc5187be0b5d9c8c3b8ac373fe210d2e5"
+    },
+    {
+      "name": "libopencv.so",
+      "sha256": "15544e9d271e95572ed87138182f54f1ac40c11876f392e61b256ed42514b950"
+    },
+    {
+      "name": "libmagicenhancer.so",
+      "sha256": "3479c9565468bfb0d3cf8868b689af281892a6de7acc12a4c4b8b111b7ead2b3"
+    },
+    {
+      "name": "libncnn.so",
+      "sha256": "5abae1db158df68cf5bb4759de7dfd23670ca17fcb6fe6b693a58c621ebf04ae"
+    },
+    {
+      "name": "libCVNN.so",
+      "sha256": "82a0e791e8461506d20282eaf4b35bc970e071e75149a82520f4aa456a03620a"
+    }
+  ],
+  "research_status_bridge": {
+    "sha256": "b75df4d70dd8f5e29ef24570fe98e51fb77ce6e5616abba9d7a7ec08c6898d0b",
+    "source": "C:\\Users\\LJL\\Documents\\ChatGPT\\\u7ff0\u6797\u6559\u5b66\u5e73\u53f0\\scanner\\android-research\\native\\status_bridge.c",
+    "role": "Calls original documentCrop, document_radar, get_warp_mat, transformCut, dewarp_process, scan and sharpEnhance with original contexts. Exposes original intermediate images, states and scores. BGR transport only; no hooks, injected tensors, confidence or return replacement."
+  },
+  "jni_descriptors_evidence": "output/camscanner-reverse/restored-PageScanner.java.txt; restored-MagicEnhancer.java.txt; restored-business-dex/restoration-evidence.json",
+  "scope": "Local research harness; original libraries unmodified. Used JNI descriptors verified against SHA-1-matched restored DEX. Original Java UI is not included; parameter choices still require per-mode attribution. Not an application equivalence claim."
+}

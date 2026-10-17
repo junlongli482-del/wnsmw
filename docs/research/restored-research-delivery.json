@@ -1,0 +1,19 @@
+{
+  "apk": "scanner-native-restored-research.apk",
+  "sha256": "715f8fbf05fa9ac9bbeccc9b366f448091456439b86b4dbf29f1a7a57a245185",
+  "checks": [
+    "native-gateway-rgba-evidence.json",
+    "curve-gateway-evidence.json",
+    "wechat-page-integration-evidence.json"
+  ],
+  "native_branch_reports": [
+    "restored-curve-contour/curve-border-report.json",
+    "restored-curve-crop/curve-crop-report.json",
+    "restored-enhance-branches/recovered-enhance-branches-report.json"
+  ],
+  "rea_capabilities": {
+    "ghidra": "Ghidra 12.1.4 headless provider verified",
+    "jadx": "REA CLI JADX 0.7.1 provider verified"
+  },
+  "scope": "New research build. Original scanner native libraries unmodified. Android emulator and Node adapter regression passed; not original UI, physical phone, or real WeChat acceptance."
+}

@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="org.localresearch.scanner">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="30" />
+  <uses-permission android:name="android.permission.CAMERA" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <application android:label="Scanner native research" android:debuggable="true" android:extractNativeLibs="true" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+    <activity android:name=".CameraActivity" android:screenOrientation="fullSensor" android:exported="true" />
+    <activity android:name=".MainActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+  </application>
+</manifest>
