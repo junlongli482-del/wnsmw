@@ -1,0 +1,69 @@
+{
+  "repo": "junlongli482-del/wnsmw",
+  "tag": "research-backup-2026-10-17",
+  "release_url": "https://github.com/junlongli482-del/wnsmw/releases/tag/research-backup-2026-10-17",
+  "checks": [
+    {
+      "name": "research-state.zip.001",
+      "bytes": 943718400,
+      "sha256": "7792a544261a03eeaf75cf98b220c7abbba38a67fd17fa094326b0cc736f2757",
+      "passed": true
+    },
+    {
+      "name": "research-state.zip.002",
+      "bytes": 943718400,
+      "sha256": "27d5188400fa1ca68ecdf400d6be1a2c1398ddb3261da1fc5bb51a54e5b3d3e2",
+      "passed": true
+    },
+    {
+      "name": "research-state.zip.003",
+      "bytes": 943718400,
+      "sha256": "77d33477c2780c8def550556bb5a84567e2410e43bd6e637dc3fb3e8fafade5d",
+      "passed": true
+    },
+    {
+      "name": "research-state.zip.004",
+      "bytes": 943718400,
+      "sha256": "3b9084b4edf89b21479c56f4400075107c276546aea0d8d8d4a173c2b3b5b37e",
+      "passed": true
+    },
+    {
+      "name": "research-state.zip.005",
+      "bytes": 735027576,
+      "sha256": "1b448d69856136cc0fee268bdf12999d9455af2e8a45b7bde2d73f1ecea1785c",
+      "passed": true
+    },
+    {
+      "name": "research-environment.zip.001",
+      "bytes": 250350162,
+      "sha256": "1feb36e9131e79b6460eb51c81f81e50f1b60dd5c082ab2474462858615e7b76",
+      "passed": true
+    },
+    {
+      "name": "research-indexes.zip.001",
+      "bytes": 11994147,
+      "sha256": "3285f0c3dfe6ff2f5a823b6419133ae18c49329f472b5c597c87d0c3a18552df",
+      "passed": true
+    },
+    {
+      "name": "snapshot-manifest.json",
+      "bytes": 3858893,
+      "sha256": "6af6dc6b813a2dbac5969b5ad68f21948bb100b06761f39a18a7d25dccceb830",
+      "passed": true
+    },
+    {
+      "name": "scanner-native-restored-research.apk",
+      "bytes": 19981591,
+      "sha256": "715f8fbf05fa9ac9bbeccc9b366f448091456439b86b4dbf29f1a7a57a245185",
+      "passed": true
+    },
+    {
+      "name": "restored-algorithm-review.html",
+      "bytes": 27351989,
+      "sha256": "f19ccd56396f5812d16263fc8c45ebf1956fbe9ce4b252c1559ff177fd25778f",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "verification": "GitHub uploaded asset size and server-computed SHA-256 matched to local bytes; snapshot archive CRC and restored file hashes validated separately."
+}
